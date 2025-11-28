@@ -1,88 +1,107 @@
 <!doctype html>
 <html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LB Viagens</title>
-  <link href='/style.css' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LB Viagens</title>
+    <link rel="stylesheet" href="../css/promoção.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <header class="container">
+    <h1>LB Viagens</h1>
 
-  <h1>LB Viagens</h1>
+    <div class="menu">
+    <a href="../Paginas/pais.html">Home</a> |
+    <a href="../Paginas/pacotes.html">Pacotes</a> |
+    <a href="../Paginas/cultura.html">Cultura</a> |
+    <a href="../Paginas/lugares.html">Lugares</a> |
+    <a href="../Paginas/culinária.html">Culinária</a> |
+    <a href="../Paginas/economia.html">Economia</a> |
+    <a href="../Paginas/Quiz.html">Quiz</a> |
+    <a href="../Paginas/promoção.html">Promoção</a>
+    </div>
+</header>
 
-  <nav>
-    <ul id="menu">
-      <a href="index.html" id="link-inicio">Início</a>
-      <a href="cadastro.html" id="link-cadastro">Cadastro</a>
-      <a href="pacotes.html" id="link-pacotes">Pacotes</a>
-      <a href="pais.html" id="link-pacotes">Pais</a>
-      <a href="cultura.html" id="link-cultura">Cultura</a>
-      <a href="culinaria.html" id="link-culinaria">Culinária</a>
-      <a href="economia.html" id="link-economia">Economia</a>
-      <a href="Quiz.html" id="link-quiz">Quiz</a>
-      <a href="promoção.html" id="link-promocao">Promoção</a>
-    </ul>
-  </nav>
+<div class="parte1">
+  <img src="../imagens/Austrália.png" alt="Minha foto">
+  <div class="textos">
+    <div class="subtitulo"> 
+      <p> Promoção: Veio pelo nosso folder?</p>
+    </div>
+  
+    <div class="desconto">
+      <p>
+        Se você chegou até aqui pelo nosso folder impresso, insira o código abaixo e garanta 10% de desconto no seu pacote
+        para os EUA!
+      </p>
+    </div>
 
-  <img src="../imagens/Captura de tela 2025-11-07 192633.png" alt="Minha foto">
-
-  <p>
-    Promoção: Veio pelo nosso folder?
-  </p>
-
-  <h3>Ganhe 10% de desconto!</h3>
-
-  <p>
-    Se você chegou até aqui pelo nosso folder impresso, insira o código abaixo e garanta 10% de desconto no seu pacote
-    para os EUA!
-  </p>
-
-  <p>Use o código FOLDERLB10</p>
-
-  <form action="">
-    <fieldset>
-
-      <div>
-        <label for=codigo"></label>
-        <input type="codigo" placeholder="Digite o código do seu folder" id="email">
-      </div>
-
-      <button>Validar</button>
-
-      <h2>Contato</h2>
-
+    <h3>Ganhe 10% de desconto!</h3> 
+      
       <form action="">
-        <fieldset>
+      <fieldset>
+  
+        <div class="código">
+          <label for=codigo"></label>
+          <input type="codigo" placeholder="Digite o código do seu folder" id="email">
+  </div>
 
-          <div>
-            <label for="Nome">Nome</label>
-            <input type="Nome" placeholder="" id=Nome">
+       <div class="validar">
+        <button>Validar</button>
+      </div>
+      
+      <div class="promoção">
+        <p>Use o código FOLDERLB10</p>
+      </div>
+     
+    </div>
+      </fieldset>
+    </div>
+
+        <h2>Contato</h2>
+
+        <form action="">
+          <fieldset>
+            
+            <div class="form">
+              <div>
+                <label for="Nome">Nome</label>
+                <input type="Nome" placeholder="" id=Nome">
+              </div>
+    
+              <div>
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="" id="email">
+              </div>
+    
+              <div>
+                <label for="Assunto">Assunto</label>
+                <input type="Assunto" placeholder="" id="Assunto">
+              </div>
+    
+              <div>
+                <label for="Mensagem">Mensagem</label>
+                <input type="Mensagem" placeholder="" id="Mensagem">
+              </div>
+            </div>
+
+            <div class="botão2">
+              <button>Enviar Mensagem</button>
+            </div>
+             
+<div class="infos2">
+  <p>Informações:
+    📧 contato@lbviagens.com.br
+    📱 (11) 99999-9999
+    📍 Av. das Nações, 2025 – São Paulo/SP
+  </p>
+</div>
+            
           </div>
-
-          <div>
-            <label for="email">E-mail:</label>
-            <input type="email" placeholder="" id="email">
-          </div>
-
-          <div>
-            <label for="Assunto">Assunto</label>
-            <input type="Assunto" placeholder="" id="Assunto">
-          </div>
-
-          <div>
-            <label for="Mensagem">Mensagem</label>
-            <input type="Mensagem" placeholder="" id="Mensagem">
-          </div>
-
-          <button>Enviar Mensagem</button>
-
-          <p>Informações:
-            📧 contato@lbviagens.com.br
-            📱 (11) 99999-9999
-            📍 Av. das Nações, 2025 – São Paulo/SP
-          </p>
 
         </fieldset>
 

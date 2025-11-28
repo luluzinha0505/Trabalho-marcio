@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 107px;
+  background-color: #00008B;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  left: 82px;
+  top: 20px;
+  width: 989.4px;
+  height: 24.7px;
+  color: #DCDCDC;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.menu {
+  position: absolute;
+  right: 20px;
+  left: 380px;
+  top: 40px;
+  width: 700px;
+  height: 24.7px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: #DCDCDC;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+main {
+  display: flex;
+  margin-top: 107px;
+  height: calc(100svh - 107px); 
+}
+
+
+
+.imagem {
+  width: 50%;
+  height: 100%;
+  background-image: url(../imagens/ho.jfif);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.conteudo {
+  width: 50%;
+  padding: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centro vertical */
+  align-items: center;       /* centro horizontal */
+
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+h4 {
+  font-weight: 400;
+  font-size: 2.7rem;
+  color: #000;
+  margin-bottom: 2rem;
+  max-width: 60rem;
+}
+
+p {
+  font-size: 2rem;
+  color: #000;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+  max-width: 60rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+ul {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  max-width: 60rem;
+  text-align: left;
+}
+ 
+ul li {
+  margin-bottom: .8rem;
+}
+
+
+.botao {
+  display: inline-block;
+  width: 30rem;
+  height: 4rem;
+
+  background-color: #00008B;
+  color: #DCDCDC;
+
+  font-size: 20px;
+  border-radius: 25rem;
+  border: 0.25rem solid black;
+
+  line-height: 4rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.botao a:hover {
+  background-color: #0000b2;
+}

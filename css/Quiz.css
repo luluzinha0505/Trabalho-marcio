@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100%;
+  font-family: 'Open Sans', sans-serif;
+    
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 107px;
+    background-color: #00008B;
+    z-index: 10;      
+    display: flex;
+    align-items: center;
+ }
+  h1 {
+    position: absolute;
+    left: 82px;      
+    top: 20px;        
+    width: 989.4px;
+    height: 24.7px;
+    color: #DCDCDC;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  .menu {
+    position: absolute;
+    right: 20px;
+    left: 380px;
+    top: 40px;                
+    width: 700px;
+    height: 24.7px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;  
+    align-items: center;
+   
+  }
+  a {
+    color: #DCDCDC;           
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+    
+  }
+
+  a{
+    color: #DCDCDC;
+    text-decoration: none;
+  }
+
+  h2{
+    margin-top: 20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sub1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sub2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, h4{
+   margin-left: 100px;
+   margin-top: 20px;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 200px;
+    background: #00008B;
+    color: white;
+
+    }
+    
+
+    .caixa1{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa2{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa3{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa4{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa5{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa6{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa7{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa8{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa9{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa10{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa11{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa12{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa13{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa14{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa15{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa16{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa17{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+    .caixa18{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa19{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+
+    .caixa20{
+        margin-left: 100px;
+        margin-top: 13px;
+    }
+    
+    .promoção{
+        width: 20rem;        
+        height: 2rem;
+        background-color: #00008B;
+        color: #DCDCDC;
+        font-size: 1%rem;
+        border-radius: 100px;
+        border: 2.5px solid black;
+        text-align: center;
+        margin-top: -20px;
+        margin-left: 1000px;
+        margin-bottom: 50px;
+      }

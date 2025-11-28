@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 107px;
+  background-color: #00008B;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+
+
+fieldset {
+  border: none;
+}
+
+
+.cadastro {
+  margin-right: 50vw;     
+  padding: 4rem;
+  align-items: center; 
+  margin-left: 6.06rem;
+  
+}
+
+.imagem {
+  position: fixed;   
+  left:50vw ;
+  top: 0;
+  width: 50vw;            
+  height: 100vh;      
+
+  background-image: url("../imagens/estatua.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 2.9rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  line-height: 1.4;
+}
+
+form {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+input {
+  padding: 1.125rem;
+  width: 15.6rem;
+  height: 1.875rem;
+  border-radius: 18.75rem;
+  border: 0.125rem solid #000000;
+  padding-left: 0.625rem;
+  margin-bottom: 1.06rem;
+}
+
+.botao {
+  width: 8.475rem;
+  height: 2.5rem;
+  margin-left: 7rem;
+  background-color: #00008B;
+  color: #DCDCDC;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.187rem;
+  border-radius: 15.65rem;
+  border: none;
+}
+
+.botao a:hover {
+  background-color: #0000b2;
+}
